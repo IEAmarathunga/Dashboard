@@ -13,6 +13,11 @@
             templateUrl: 'App/Views/Dog/NewDogs.html',
             controller: 'NewDogsCtrl'
         }).
+
+        when('/DogPics', {
+            templateUrl: 'App/Views/Dog/VerifyDogPictures.html',
+            controller: 'DogPicsCtrl'
+        }).
         //home page
         otherwise({
             redirectTo: '/',
